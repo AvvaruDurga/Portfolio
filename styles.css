@@ -1,0 +1,125 @@
+/* styles.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(to right, #0d253f, #1e3c72);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hire-btn {
+    background-color: #0073e6; /* Changed to a professional blue color */
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.hire-btn:hover {
+    background-color: #005bb5; /* Darker shade on hover */
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Lora', serif; /* Updated to a more elegant professional font */
+}
+
+.navbar-brand, .nav-link {
+    color: #0d253f !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lora', serif; /* Ensuring consistency in the navbar font */
+}
+
+.btn-custom {
+    background-color: #0d253f;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #081b31;
+}
+
+section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0d253f;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+#contact a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #005bb5;
+}
+#contact {
+    background: #f8f9fa;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+#contact h2 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+#contact p {
+    color: #555;
+}
+
+#contact i {
+    color: #d63384;
+    margin-right: 5px;
+}
+
+.btn-danger {
+    background-color: #d63384;
+    border: none;
+}
+.btn-danger:hover {
+    background-color: #a82864;
+}
